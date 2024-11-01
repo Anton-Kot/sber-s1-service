@@ -25,7 +25,7 @@
 ## Запуск
 Для заполнения БД тестовыми данными:
 ```bash
-python example/test_data.py
+python test_data.py
 ```
 
 Для запуска сервиса:
