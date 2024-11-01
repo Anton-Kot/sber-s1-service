@@ -1,0 +1,29 @@
+# database:
+#   dialect: sqlite
+#   driver: pysqlite
+#   username: ""
+#   password: ""
+#   host: ""
+#   port: ""
+#   database: "s1_service.db"
+
+database:
+  dialect: postgresql
+  driver: asyncpg
+  username: "user"
+  password: "password"
+  host: "localhost"
+  port: "5432"
+  database: "s1_service_db"
+
+service_s2:
+  url: "https://ru.wikipedia.org"
+  login: "login"
+  password: "password"
+  timeout: 5
+
+concurrency:
+  max_concurrent_requests: 5
+
+logging:
+  level: "INFO"
